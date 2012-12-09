@@ -1,0 +1,148 @@
+.navigation {
+	position: relative;
+	background: rgba(0,255,0,0.1);
+}
+
+.navigation > ul {
+	float: left;
+	padding: 0 1.2%;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	font-family: "laurenscriptregular", sans-serif;
+	font-style: italic;
+}
+
+.navigation li {
+	float: left;
+	position: relative;
+	width: 15%;
+	margin-left: 2%;
+	padding-top: 2em;
+	outline: none;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+.navigation li.active {
+	background: url(logo.png) no-repeat 50% -160px;
+}
+
+.navigation li:nth-child(1) {
+	margin-left: 0;
+}
+.navigation a {
+	display: block;
+	
+	width: 100%;
+	margin: 0;
+	padding: 5px 0;
+	outline: none;
+	float: left;
+	
+	text-decoration: none;
+	color: black;
+	opacity: .9;
+}
+
+.navigation a:hover {opacity: 1;}
+
+
+#pageheader {
+	position: relative;
+	width: 100%;
+	background: url(clouds.png) no-repeat 50% 100%;
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+#pageheader hgroup {
+	font-family: "laurenscriptregular", sans-serif;
+}
+
+#pageheader h1, h2 {
+	margin: 0;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+#pageheader h1 {font-style: italic;}
+#pageheader h1 span {
+	font-variant: small-caps;
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+#pageheader h3 {display: none;}
+
+#pageheader > h1 {
+	display: block;
+	height: 185px;
+	width: 185px;
+	margin: 3em auto 1em;
+	text-indent: -9999px;
+	background: url(logo.png);
+}
+
+#pageheader .social {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 26px;
+	right: 12px; bottom: 12px;
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+#pageheader .social li {
+	display: block;
+	height: 20px;
+	width: 20px;
+	
+	margin: 0 4px 0 0;
+	padding: 0;
+	
+	text-indent: -9999px;
+	float: left;
+	
+}
+
+#pageheader .social a {
+	display: block;
+	height: 20px;
+	width: 20px;
+	background-image: url(social.png);
+	background-repeat: no-repeat;
+}
+
+#pageheader .social-tw {background-position: 0 0;}
+#pageheader .social-fb {background-position: -23px 0px;}
+
+
+//<nav class="navigation">
+//    <ul> (LaurenScript Italic)
+//        <li><a href="#">Home</a></li>
+//        <li><a href="#">About</a></li>
+//        <li><a href="#">Galery</a></li>
+//        <li><a href="#">Contact</a></li>
+//        <li><a href="#">Shop</a></li>
+//        <li><a href="#">Blog</a></li>
+//    </ul>
+//</nav>
+//
+//<header id="pageheader">
+//    <h1><a href="/">Object</a></h1> (Image)
+//    <hgroup>
+//        <h1>Est. 2012</h1> (LaurenScript Regular)
+//        <h2>Hand embellished original objects</h2> (LaurenScript Regular)
+//        <h3>for sale &amp; short time hire</h3> (Absara Sans TF Bold)
+//    </hgroup>
+//        
+//    <div>
+//        <ul><a href="htp://twitter.com/theobjectshop">Twitter</a></ul>
+//        <ul><a href="http://www.facebook.com/pages/OBJECT/265980270104996?fref=ts">Facebook</a></ul>
+//    </div>
+//</header>

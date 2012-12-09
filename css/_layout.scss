@@ -1,0 +1,41 @@
+
+/*************** Layout ***************/
+
+
+body, #pageheader, #pagefooter, #wrapper {
+	z-index: 0;
+}
+
+#pageheader {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#pagefooter {
+	max-width: 976px;
+	width: 97.6%;
+	margin-left: 1.2%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.navigation {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+// Add additional background images.
+body:before,
+body:after {
+	position: absolute;
+	content: " ";
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: -2;
+	background: url(bg-curl-bottom.png) no-repeat bottom left;
+}
+body:after {
+	background: url(map.png) no-repeat bottom right;
+	z-index: -1;
+}
